@@ -4,11 +4,19 @@
   "description": "Client side of thourds",
   "main": "index.js",
   "scripts": {
+    "dev": "cross-env NODE_ENV=dev webpack-dev-server --config ./config/webpack4.dev.js --hot",
+    "prod": "cross-env NODE_ENV=prod webpack --config ./config/webpack4.prod.js --progress",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "vue"
   ],
   "author": "Hatem Houssein",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "compression-webpack-plugin": "^2.0.0",
+    "vue-loader": "^15.7.0",
+    "vue-template-compiler": "^2.6.10",
+    "webpack-merge": "^4.2.1"
+  }
 }
