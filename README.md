@@ -5,6 +5,7 @@ This is a good way to keep learning relevant vocabs instead of learning the word
 
 ### Things I learned in this project
 - [x] Webpack
+- [x] Babel
 - [x] Vue JS
 - [ ] GraphQL
 - [x] Deploying on Heroku
