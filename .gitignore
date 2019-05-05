@@ -1,7 +1,8 @@
+# Common ignored files
 config.js
 node_modules
 .babelrc
 package-lock.json
-
-/client/dist
+dist
+# Client side ignore files 
 /client/config/
