@@ -1,4 +1,7 @@
 config.js
 node_modules
-./client/.gitignore
-./server/.gitignore
+.babelrc
+package-lock.json
+
+/client/dist
+/client/config/
